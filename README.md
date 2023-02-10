@@ -1,2 +1,3 @@
-# ltg-bert
-LTG-Bert
+# LTG-BERT
+
+WIP
