@@ -14,8 +14,8 @@
 <br>
 
 <p align="center">
-  <a href=""><b>Paper (TBA)</b></a><br>
-  <a href=""><b>HuggingFace models (TBA)</b></a>
+  <a href="https://arxiv.org/abs/2303.09859"><b>Paper</b></a><br>
+  <a href="https://huggingface.co/ltg/bnc-bert-span"><b>HuggingFace models</b></a>
 </p>
 
 <!--
@@ -44,7 +44,14 @@ _______
 
 <br>
 
-## Please cite the following publication
+## Please cite the following publication (just arXiv for now)
 ```bibtex
-TBA
+@misc{samuel2023trained,
+      title={Trained on 100 million words and still in shape: BERT meets British National Corpus}, 
+      author={David Samuel and Andrey Kutuzov and Lilja Øvrelid and Erik Velldal},
+      year={2023},
+      eprint={2303.09859},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
