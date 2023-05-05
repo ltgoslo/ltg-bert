@@ -46,12 +46,19 @@ _______
 
 ## Please cite the following publication (just arXiv for now)
 ```bibtex
-@misc{samuel2023trained,
-      title={Trained on 100 million words and still in shape: BERT meets British National Corpus}, 
-      author={David Samuel and Andrey Kutuzov and Lilja Øvrelid and Erik Velldal},
-      year={2023},
-      eprint={2303.09859},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{samuel-etal-2023-trained,
+    title = "Trained on 100 million words and still in shape: {BERT} meets {B}ritish {N}ational {C}orpus",
+    author = "Samuel, David  and
+      Kutuzov, Andrey  and
+      {\O}vrelid, Lilja  and
+      Velldal, Erik",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.146",
+    pages = "1954--1974",
+    abstract = "While modern masked language models (LMs) are trained on ever larger corpora, we here explore the effects of down-scaling training to a modestly-sized but representative, well-balanced, and publicly available English text source {--} the British National Corpus. We show that pre-training on this carefully curated corpus can reach better performance than the original BERT model. We argue that this type of corpora has great potential as a language modeling benchmark. To showcase this potential, we present fair, reproducible and data-efficient comparative studies of LMs, in which we evaluate several training objectives and model architectures and replicate previous empirical results in a systematic way. We propose an optimized LM architecture called LTG-BERT.",
 }
 ```
